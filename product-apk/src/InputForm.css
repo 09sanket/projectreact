@@ -1,0 +1,51 @@
+/* Styling for the input form */
+.form-container {
+    margin-bottom: 20px;
+    font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .form-container input,
+  .form-container select,
+  .form-container button {
+    margin: 5px;
+    padding: 8px;
+    border: 2px solid #0d0101;
+    border-radius: 5px;
+    font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+
+  }
+  
+  .form-container select {
+    width: 200px;
+  }
+  
+  .form-container button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .content input{
+    margin: 2px;
+  }
+  .btn{
+    font-weight: bolder;
+    margin-top: 5px;
+    color: #bd2130;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  
